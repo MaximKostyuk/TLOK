@@ -6,11 +6,8 @@ def islandOfAir(KorraCanBeHere = True):
 	print ( nameOfIsland )
 	if KorraCanBeHere == False:
 		print ( "Эта сюжетно важная локация больше не доступна" )
-		KorraCanBeHere = False
 	else:
 		print ( "Можно запускать действия" )
-		def doSomething():
-			print ( "In DoSomething" )
 #KorraCanCheks = { "IslandOfAir" : True }
 #k =islandOfAir(KorraCanCheks["IslandOfAir"])
 #KorraCanCheks["IslandOfAir"] = k
